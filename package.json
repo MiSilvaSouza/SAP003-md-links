@@ -1,0 +1,32 @@
+{
+  "name": "md-links",
+  "version": "1.0.0",
+  "description": "pegar links de uma biblioteca",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  
+  "scripts": {
+    "test": "jest --coverage",
+    "eslint": "eslint --ext .js lib/ test/ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiSilvaSouza/SAP003-md-links.git"
+  },
+  "author": "Mirian Silva Souza",
+  "license": "ISC",
+  "bin": {
+    "md-links": "./lib/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/MiSilvaSouza/SAP003-md-links/issues"
+  },
+  "homepage": "https://github.com/MiSilvaSouza/SAP003-md-links#readme",
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "eslint-plugin-react": "^7.16.0",
+    "jest": "^24.9.0"
+  }
+}
