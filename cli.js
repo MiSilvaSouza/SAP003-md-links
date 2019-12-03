@@ -11,12 +11,12 @@ mdlinks(path, option)
       result.map((item) =>
         fetch(item.href)
           .then((link) => link.status === 200 ? 
-            console.log(`text: ${item.text}\nhref: ${item.href}\nstatus: valid\n`) : 
-            console.log(`text: ${item.text}\nhref: ${item.href}\nstatus: invalid\n`))    
+            console.log(`text: ${item.text}\nhref: ${item.href.substring(0, 50)}\nstatus: valid\n`) : 
+            console.log(`text: ${item.text}\nhref: ${item.href.substring(0, 50)}\nstatus: invalid\n`))    
       );
     } else {
       result.map((item) =>        
-        console.log(`text: ${item.text}\nhref: ${item.href}\n`)             
+        console.log(`text: ${item.text}\nhref: ${item.href.substring(0, 50)}\n`)             
       );
     }
   })
