@@ -17,7 +17,7 @@
   "author": "Mirian Silva Souza",
   "license": "ISC",
   "bin": {
-    "md-links": "./lib/cli.js"
+    "md-links": "./cli.js"
   },
   "bugs": {
     "url": "https://github.com/MiSilvaSouza/SAP003-md-links/issues"
